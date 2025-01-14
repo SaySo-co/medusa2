@@ -1,6 +1,6 @@
 /dist
 .env
-.DS_Store
+
 /uploads
 /node_modules
 yarn-error.log
@@ -12,6 +12,8 @@ coverage
 !src/**
 
 ./tsconfig.tsbuildinfo
+package-lock.json
+yarn.lock
 medusa-db.sql
 build
 .cache
@@ -24,3 +26,8 @@ build
 !.yarn/versions
 
 .medusa
+
+demo-values.yaml
+public/
+
+.DS_Store
