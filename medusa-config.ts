@@ -17,5 +17,8 @@ module.exports = defineConfig({
     {
       resolve: './modules/partner',
     },
+    {
+      resolve: './modules/shipping',
+    },
   ],
 });
